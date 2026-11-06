@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#top-ad {
+    width: 1032px;
+    height: 250px;
+    float: left;
+    background-color: black;
+    background-image: url("assets/top/bg.jpg");
+    background-size: 1032px 250px;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: gray; */
+
+}
+
+#left-ad{
+    background-image: url("assets/left/bg.jpg");
+    background-size: cover;
+}
+
+#right-ad{
+    background-image: url("assets/right/bg.jpg");
+    background-size: cover;
+}
+
+.side-ad {
+    width: 320px;
+    height: 975px;
+    float: left;
+    background-color: green;
+}
+
+.baner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
